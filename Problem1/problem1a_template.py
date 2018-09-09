@@ -5,9 +5,11 @@
 ##################################################################################
 #                                LOGIC GOES BELOW                     		#
 ##################################################################################
-#
-#
-#
+#Suppose Dice is having 2 sided No.of roles =(1/2)*1+(1/1)1
+#Expected Sum=(1/2)*1
+#lets suppose its a fair dice of 3 sides. then expected value for one roll will be   
+#E(X=3) = 1* (1/3) + 2*(1/3) + 3*(1/3) = 2   
+#hence average sum when dice of 3 side is rolled comes out to be 2. 
 #
 #
 ##################################################################################
@@ -37,16 +39,23 @@ def findSumDieRoll(n):
 	##          FILL ME IN          ##
 	##################################
 	# n is a float
-	sumRolls = n/2 # Replace me with your answer
+	sumRolls = 0 # Replace me with your answer\
+	i = 0
+	while(i < n)
+	sumRolls = sumRolls + (i+1)/(n-i)
+	i = i+1
 
 	return round(sumRolls, 2)
-
 def findNumberOfRolls(n):
 	##################################
 	##          FILL ME IN          ##
 	##################################
 	# n is a float
-	numRolls = n/2	# Replace me with your answer
+	numRolls = 0 # Replace me with your answer\
+	i = 0
+	while(i < n)
+	numRolls = numRolls + 1/(n-i)
+	i = i+1
 
 	return round(numRolls, 2)
 
